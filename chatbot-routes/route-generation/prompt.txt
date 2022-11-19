@@ -1,0 +1,126 @@
+When making chatbots, it is important to have intents and example phrases in order to train a model effectively. When creating these phrases, its important to make sure that the phrases only could apply to the intent that is described. Below are some examples of intent descriptions and some example phrases.
+--
+Intent Description: This intent handles credit and debit card cancellations. Some example phrases are:
+need to cancel my current credit card
+I dont need by card anymore
+remove my debit card please
+Can you help me cancel my card?
+How do I cancel my cards?
+--
+Intent Description: Assists user with requests to change and reset their online account password. Some example phrases are:
+i need a new password for my account
+i need to reset my password
+I forgot my login
+i misplaced my password i need it i need a new password
+i'd like my password reactivated
+--
+Intent Description: If someone is asking for general card information they would be directed here. Some example phrases are:
+i am calling to get some information on my credit card
+card application status
+card credit
+I am looking to for my credit info
+credit card customer service
+help with card
+credit card help please
+--
+Intent Description: Anything related to changing an address or other contact information. Some example phrases are:
+I need to update my address
+change my email
+i would like to change the name on my credit card account
+I moved and need to update my account
+can I change my contact information
+--
+Intent Description: Users asking about what the hours of operation are. Some example phrases are:
+What are the hours of operation for your business?
+Do you have a time when I can reach someone at the customer service department?
+When are you open?
+What are the hours
+Are you open tomorrow? I need to come in for an appointment
+--
+Intent Description: Deals with any questions about interest or loan rates. Some example phrases are:
+information on interest rates please
+I have a mortgage with you guys, i would like to find what the interest payments are
+yes i want to have the amount of interest on my personal loan and grants
+I would like to know my interest rate on my student loan
+I would need to know my interest for my car loan
+--
+Intent Description: Anyone asking about returning or returns would be directed here. Some example phrases are:
+How long do I have to return an item?
+help with a return
+need to send something back that I bought
+my item broke and I need to return it
+do you take back items?
+--
+Intent Description: This route helps with questions about insurance quotes or estimates. Some example phrases are:
+need a quote for car insurance
+how cheap would renters be?
+can you give me an estimate on renters insurance?
+interested in car coverage
+how much would it be to cover my home?
+--
+Intent Description: This would be anyone saying "no" or other rejections. Some example phrases are:
+no
+no im done
+not at all
+no thanks
+thats not right
+--
+Intent Description: Requests to verify employment or their employment letter. Some example phrases are:
+get employment verification letter
+employment letter
+need to verify my job
+provide me employment letter
+When do you send a employment notice?
+--
+Intent Description: To raise a request when you face issues while accessing VPN. Some example phrases are:
+could not connect to vpn
+vpn is not working
+issue configuring vpn
+facing vpn access issue
+issue accessing vpn
+--
+Intent Description: This will help anyone asking about the weather or other forecast questions. Some example phrases are:
+what is the weather tomorrow?
+is it going to rain today? 
+temperature
+tell me the forecast
+weather next week in dallas
+--
+Intent Description: handles business account management. Some example phrases are:
+do you offer business accounts?
+i need to talk to someone that could give me a loan for my company?
+can you set up a small biz account?
+Can you help me with an account for a new company? 
+I want to open a corporate account please
+--
+Intent Description: handles modification or cancelation of transactions or payments. Some example phrases are:
+i need to modify my monthly payments? 
+How do I change my payment method? 
+How do I change my credit card information? 
+Can I cancel my automatic payment? 
+Can I change my payment due date? 
+--
+Intent Description: Handles questions about debit cards. Some example phrases are:
+How do I activate my debit card? 
+Can I get a new debit card? 
+How do I use my debit?
+Can you give me my debit card number? 
+I have a question about my debit card
+--
+Intent Description: Assists users with setting an alarm. Some example phrases are:
+Set an alarm for tomorrow morning
+Alarm for 8am
+Set my alarm for an hour for now
+7am alarm tomorrow
+Set an alarm for 9 am tomorrow please?
+--
+Intent Description: This is a route that handles questions about sports scores: Some example phrases are:
+How is the world series score? 
+what is the score of the super bowl? 
+can you give me the score of the football game? 
+score of the soccer game? 
+what is the score of the basketball game tonight? 
+can you tell me the score of the baseball game? 
+what is the score of the football game today? 
+--
+Intent Description:
