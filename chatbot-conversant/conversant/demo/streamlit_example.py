@@ -16,6 +16,9 @@ import cohere
 import emoji
 import streamlit as st
 
+import conversant
+REAL_PERSONA_DIR=os.curdir + "/conversant/personas" 
+conversant.prompt_chatbot.PERSONA_MODEL_DIRECTORY = REAL_PERSONA_DIR
 from conversant.demo import ui, utils
 from conversant.prompt_chatbot import PromptChatbot
 from conversant.utils import demo_utils
@@ -43,6 +46,7 @@ def initialize_chatbot() -> None:
         st.session_state.bot = PromptChatbot.from_persona(
             emoji.replace_emoji(st.session_state.persona, "").strip(),
             client=cohere.Client(os.environ.get("COHERE_API_KEY")),
+            persona_dir=REAL_PERSONA_DIR,
         )
     if "bot" in st.session_state and st.session_state.bot:
         update_session_with_prompt()

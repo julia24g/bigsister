@@ -15,7 +15,6 @@ from streamlit_talk import message as st_message
 
 from conversant.demo import utils
 
-
 def draw_chat_history() -> None:
     """Renders the chat history in Streamlit.
 
