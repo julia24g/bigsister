@@ -20,20 +20,22 @@
             </ul> -->
         </nav>
         <header class="header">
-            <div class="header__content">
+            <div class="header-content">
                 <h1 class="title">meet lotus,<br>your safe space.</h1>
-                <h1 class="sub-title">we make growing up less awkward.</h1>
+                <h2 class="sub-title">we make growing up less awkward.</h2>
                 <button class="btn" onclick="document.getElementById('conversation').scrollIntoView()">Start a conversation</button>
-                <img class="lotusleft" src="../static/assets/Lotus left.png" alt="">
-                <img class="lotusright" src="../static/assets/Lotus right.png" alt="">
+                <div class="lotusComb">
+                    <img class="lotusleft" src="../static/assets/Lotus left.png" alt="">
+                    <img class="lotusright" src="../static/assets/Lotus right.png" alt="">
+                </div>
             </div>
         </header>
         <div class="about">
             <img class="bloom-img" src="../static/assets/Bloom 1.png" alt="">
             <h1 class="title">what is lotus?</h1>
             <div class="about-flex">
-                <h1 class="sub-title">some questions are awkward to ask,<br> so you're kinda left to
-                    figure things out on your own...<br><br>you shouldn't have to.<br>that's why we created Lotus.</h1>
+                <h2 class="sub-title">some questions are awkward to ask, so you're kinda left to
+                    figure<br>things out on your own...<br><br>you shouldn't have to.<br>that's why we created lotus.</h2>
                 <ul>
                     <li class="about-list">there are no "bad" questions, no judgement.</li>
                     <li class="about-list">your responses are completely anonymous, and will not be traced back to you.</li>
@@ -44,22 +46,31 @@
         </div>
         <div class="how">
             <h1 class="title">how does it work?</h1>
-            <li class="how-list">ask us anything, or pick a topic from our sugegsted list.</li> 
-            <li class="how-list">we simplify relevant scientific journals and trusted medical sources based on your needs.</li>
-            <li class="how-list">we simplify relevant scientific journals and trusted medical sources based on your needs.</li>
-            <li class="how-list">feel free to follow up with questions and.</li>
+            <div class="how-container">
+                <li class="how-list">ask us anything, or pick a topic from our suggested list.</li>
+                <li class="how-list">we simplify relevant scientific journals and trusted medical sources based on your needs.</li>
+                <li class="how-list">feel free to follow up with questions, and our model will adjust based on previous context!</li>
+                <li class="how-list">after the session, we'll send an email with the transcript so you can refer to it after.</li>
+            </div>
+            
+            
+        </div>
+        <div class="explore">
+            <h1 class="title">start exploring</h1>
+            <img class="explore-img" src="../static/assets/exploreimg.png" alt="">
+            
         </div>
         
     </section>
     <section id="conversation">
         <div class="convo-section">
             <h1 class="convo">ok! - let's dive into your questions.<br>what's on your mind?</h1>
-            <!-- <textarea class="userInput" name="text" id="" cols="70" rows="2" placeholder="type your question here.."></textarea> -->
-            <form action="/index" method = "POST">
-                <p>Field1 <input type = "text" name = "enter" /></p>
-                <p><input type = "submit" value = "submit" /></p>
+        
+            <form name="text" id="" action="/index" placeholder="type your question here.." method = "POST">
+                <input class="userInput" type = "text" name = "enter" />
+                <p><input class="btn" type = "submit" value = "submit" /></p>
             </form>
-            <p> {{answer_data}} </p>
+            <h3> {{answer_data}} </h3>
         </div>
     </section>
 </body>
