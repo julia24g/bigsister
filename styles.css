@@ -135,11 +135,12 @@ ul {
     left: 5%;
 }
 #conversation {
-    height: 1000px;
+    height: 800px;
+    align-items: center;
 }
-.convo-section {
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
+.convo {
+    padding: 50px 50px;
 }
-
+.userInput {
+    border-radius: 10px;
+}
