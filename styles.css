@@ -139,8 +139,22 @@ ul {
     align-items: center;
 }
 .convo {
-    padding: 50px 50px;
+    padding: 80px 50px;
+    color: #4A1610;
+    font-size: 30px;
+}
+.convo-section {
+    padding-left: 70px;
 }
 .userInput {
+    padding-left: 10px;
+    padding-top: 10px;
     border-radius: 10px;
+    font-size: 30px;
+    color: #4A1610;
+}
+textarea {
+    resize: none;
+    margin-left: 40px;
+    width: 800px;
 }
